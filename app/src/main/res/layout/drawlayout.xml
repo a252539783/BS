@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+
+    <a.a.bs.view.DrawView
+        android:id="@+id/draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#4b000000"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:id="@+id/draw_ok"
+            android:src="@drawable/draw_ok"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:id="@+id/draw_cancel"
+            android:src="@drawable/draw_cancel"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:id="@+id/draw_more"
+
+            android:src="@drawable/more"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
