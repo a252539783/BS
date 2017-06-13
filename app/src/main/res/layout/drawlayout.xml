@@ -19,28 +19,28 @@
 
 
         <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:background="@android:color/transparent"
-            android:layout_margin="10dp"
+            android:padding="6dp"
             android:scaleType="fitXY"
             android:id="@+id/draw_ok"
             android:src="@drawable/draw_ok"/>
 
         <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:background="@android:color/transparent"
-            android:layout_margin="10dp"
+            android:padding="6dp"
             android:scaleType="fitXY"
             android:id="@+id/draw_cancel"
             android:src="@drawable/draw_cancel"
             />
 
         <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="6dp"
             android:background="@android:color/transparent"
             android:scaleType="fitXY"
             android:id="@+id/draw_more"
